@@ -10,6 +10,31 @@
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
+	<h1>Car Insurance Registeration Form</h1>
+	<form method="post">
+		<label for="name">Name</label>
+		<input id="name" type="text" placeholder="Enter your name" required>
+		<label for="email">Email</label>
+		<input id="email" type="email" placeholder="Enter your email" required>
+		<label for="gender_m">Male</label>
+		<input id="gender_m" type="radio" name="Gender" required>
+		<label for="gender_f">Female</label>
+		<input id="gender_f" type="radio" name="Gender" required>
+		<label for="cars">Choose car</label>
+		<select id="cars" placeholder="">
+			<option value="--Please select an option--" selected disabled>--Please select an option--</option>
+			<option value="BMW">BMW</option>
+			<option value="Audi">Audi</option>
+			<option value="Mercedez">Mercedez</option>
+		</select>
+		<label for="carage">Age of your car</label>
+		<input id="carage" type="number" placeholder="Car age" required>
+		<label for="dop">Date of purchase</label>
+		<input id="dop" type="date" placeholder="Date of purchase" required>
+		<label for="password">Password</label>
+		<input id="password" type="password" placeholder="password" required>
+		<button type="submit">submit</button>
+	</form>
 
 </body>
 
